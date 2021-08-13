@@ -1,6 +1,6 @@
 
 <h2 class="text-muted text-center"><?= $doces_descricao[$d]["title"]; ?></h2><br>
-<img src="<?=$produtos[$d]["foto"] ?>" class=" img-fluid rounded-circle" alt="<?= $doces_descricao[$d]["title"]; ?>">
+<img src="<?=$produtos[$d]["foto"] ?>" class=" img-fluid rounded-circle rounded mx-auto d-block" alt="<?= $doces_descricao[$d]["title"]; ?>">
 <br><br>
 <p> <?= $doces_descricao[$d]["description"]; ?> </p>
     <ul>

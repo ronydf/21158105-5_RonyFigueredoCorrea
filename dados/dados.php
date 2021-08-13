@@ -21,7 +21,7 @@
 			'description' => 'Sem adição de amido, o doce de leite é puro e extremamente cremoso. Produzido com matéria-prima selecionada e um cuidado especial no processo, é ideal para lanches e receitas. Conheça todos os sabores para uma experiência ainda mais especial. Sem adição de conservantes ou produtos químicos. Contém lactose',
 			'ingrediente' => 'leite e açucar',
             'embalagem' => 'Pote de 400g',
-			'calorias' => '67 kcal',
+			'calorias' => '367 kcal',
 			'preco' => 'R$10,00'
         ),
 		1 => array(
@@ -29,16 +29,16 @@
 			'description' => 'São apenas três ingrediente nessa receita maravilhosa, água, goiabas frescas selecionadas e açucar. Sem adição de conservantes ou produtos químicos. Não contém glutem e lactose',
 			'ingrediente' => 'água, goiaba e açucar',
 			'embalagem' => 'Pote de 400g',
-			'calorias' => '67 kcal',
-			'preco' => 'R$10,00'
+			'calorias' => '207 kcal',
+			'preco' => 'R$12,50'
         ),
 		2 => array(
             'title' => 'Doce de mamão', 
 			'description' => 'São apenas três ingrediente nessa receita maravilhosa, água, goiabas frescas selecionadas e açucar. Sem adição de conservantes ou produtos químicos. Não contém glutem e lactose',
 			'ingrediente' => 'água, mamão verde e açucar',
 			'embalagem' => 'Pote de 400g',
-			'calorias' => '67 kcal',
-			'preco' => 'R$10,00'
+			'calorias' => '267 kcal',
+			'preco' => 'R$25,00'
         ),
 		3 => array(
             'title' => 'Doce de Laranja', 
