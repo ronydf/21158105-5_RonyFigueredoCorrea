@@ -15,32 +15,40 @@
 <body>
     <div class="container">
         <div class="row">
+         
+                
+           
             <div class="col-12">
-                <header class="bg-warning" style="--bs-bg-opacity: .5;"> 
-                    <!-- img src="./images/logo.png" height="150" alt="Doces Vovó Benedita" title="Doces Vovó Benedita" -->
+                <header class="bg-warning" style="--bs-bg-opacity: .1;"> 
+                <img src="./images/logo.png" alt="Logo marca" style="width: 200px;" class="float-start">
                     <nav>
                         <ul class="nav justify-content-center text-white" >
                             <li class="nav-item">
-                                <a class="nav-link active text-white" href="./index.php?p=produtos">Nossos Doces</a>
+                                <a class="nav-link link-light a:hover" href="./index.php?p=produtos">Nossos Doces</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="./index.php?p=quem_somos">Quem Somos</a>
+                                <a class="nav-link link-light" href="./index.php?p=quem_somos">Quem Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="./index.php?p=contato">Contato</a>
+                                <a class="nav-link link-light" href="./index.php?p=contato">Contato</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="./index.php?p=localizacao">Localização</a>
+                                <a class="nav-link link-light" href="./index.php?p=localizacao">Localização</a>
                             </li>
-                            </ul>               
-                    </nav>   
+                        </ul>               
+                    </nav> 
+                         
                 </header>
-            </div>
+            </div>    
+            
         </div>
+        
         <div class="row" style="padding-top: 30px;">
+               
             <div class="col-12">
                 <main>
-                    <h1 class="text-center"><small><?=$quem_somos["empresa"];?></small></h1>
+                    <!-- Espaço para apresentação das paginas do site -->
+                    
                         <?php
                             $valor = @$_GET['p'];
                             switch ($valor) {
@@ -48,16 +56,21 @@
                                 case "contato": require_once './pages/contato.php'; break;
                                 case "localizacao": require_once './pages/localizacao.php'; break;
                                 case "produtos": require_once './pages/produtos.php'; break;
+                                case "doce0": $d=0; require_once './pages/doce.php'; break;
+                                case "doce1": $d=1; require_once './pages/doce.php'; break;
+                                case "doce2": $d=2; require_once './pages/doce.php'; break;
+                                case "doce3": $d=3; require_once './pages/doce.php'; break;
                                 default: require_once './pages/produtos.php'; break;
                             }
                         ?>
+                    <!-- Fim do espaço para apresentação das paginas do site -->
                 </main>
             </div>
         </div>       
         <div class="row" style="padding-top: 30px;">
             <div class="col-12 bg-warning" style="--bs-bg-opacity: .1;">
                 <footer>
-                    <p class="text-center">Rony Figueredo Corrêa RA 21158105-5</p>
+                    <p class="text-center">Rony Figueredo Corrêa <br> RA 21158105-5</p>
                 </footer>
             </div>
         </div>
