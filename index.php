@@ -1,3 +1,6 @@
+<?php
+	include('./dados/dados.php');
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,45 +16,46 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <header> 
+                <header class="bg-warning" style="--bs-bg-opacity: .5;"> 
+                    <!-- img src="./images/logo.png" height="150" alt="Doces Vovó Benedita" title="Doces Vovó Benedita" -->
                     <nav>
-                        <ul class="nav justify-content-center">
+                        <ul class="nav justify-content-center text-white" >
                             <li class="nav-item">
-                                <a class="nav-link active" href="./index.php?p=produtos">Nossos Doces</a>
+                                <a class="nav-link active text-white" href="./index.php?p=produtos">Nossos Doces</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.php?p=quem_somos">Quem Somos</a>
+                                <a class="nav-link text-white" href="./index.php?p=quem_somos">Quem Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.php?p=contato">Contato</a>
+                                <a class="nav-link text-white" href="./index.php?p=contato">Contato</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.php?p=localizacao">Localização</a>
+                                <a class="nav-link text-white" href="./index.php?p=localizacao">Localização</a>
                             </li>
-                        </ul>               
-                    </nav>
+                            </ul>               
+                    </nav>   
                 </header>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="padding-top: 30px;">
             <div class="col-12">
                 <main>
-                <h1 class="text-center"><small>Vovó Benedita doces Caseiros</small></h1>
-                    <?php
-                        $valor = @$_GET['p'];
-                        switch ($valor) {
-                            case "quem_somos": require_once './pages/quem_somos.php'; break;
-                            case "contato": require_once './pages/contato.php'; break;
-                            case "localizacao": require_once './pages/localizacao.php'; break;
-                            case "produtos": require_once './pages/produtos.php'; break;
-                            default: require_once './pages/produtos.php'; break;
-                        }
-                    ?>
+                    <h1 class="text-center"><small><?=$quem_somos["empresa"];?></small></h1>
+                        <?php
+                            $valor = @$_GET['p'];
+                            switch ($valor) {
+                                case "quem_somos": require_once './pages/quem_somos.php'; break;
+                                case "contato": require_once './pages/contato.php'; break;
+                                case "localizacao": require_once './pages/localizacao.php'; break;
+                                case "produtos": require_once './pages/produtos.php'; break;
+                                default: require_once './pages/produtos.php'; break;
+                            }
+                        ?>
                 </main>
             </div>
         </div>       
-        <div class="row">
-            <div class="col">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col-12 bg-warning" style="--bs-bg-opacity: .1;">
                 <footer>
                     <p class="text-center">Rony Figueredo Corrêa RA 21158105-5</p>
                 </footer>
