@@ -20,9 +20,9 @@ Trata-se de uma pagina web dinamica simples utilizando programação PHP.
 Trata-se de um sistema web utilizando a linguagem de programação PHP de forma estruturada e dinâmica, Linguagem de Marcação HTML e estilização com CSS utilizando o bootstrap.<br>
 A página index.php controla as demais páginas do seu sistema, ou seja, todas as páginas relacionadas ao conteúdo são abertas dentro deste arquivo. <br>
 Na raiz do projeto foram criados os diretórios:<br>
--pages, neste diretório, estão armazenados todas as páginas do sistema, exceto a index.php que está armazenada na raiz do projeto.<br>
--images, neste diretório, estão armazenados todas as imagens sistema.<br>
--css, neste diretório, vestão armazenados todas as folhas de estilo.<br>
+- pages, neste diretório, estão armazenados todas as páginas do sistema, exceto a index.php que está armazenada na raiz do projeto.<br>
+- images, neste diretório, estão armazenados todas as imagens sistema.<br>
+- css, neste diretório, vestão armazenados todas as folhas de estilo.<br>
 - dados, neste diretório, estão armazenados os arrays com os dados a serem utilizados.<br>
  
  
