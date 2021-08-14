@@ -22,7 +22,7 @@
 			'ingrediente' => 'leite e açucar',
             'embalagem' => 'Pote de 400g',
 			'calorias' => '367 kcal',
-			'preco' => 'R$10,00'
+			'preco' => 'R$21,00'
         ),
 		1 => array(
             'title' => 'Doce de Goiaba', 
@@ -30,7 +30,7 @@
 			'ingrediente' => 'água, goiaba e açucar',
 			'embalagem' => 'Pote de 400g',
 			'calorias' => '207 kcal',
-			'preco' => 'R$12,50'
+			'preco' => 'R$22,50'
         ),
 		2 => array(
             'title' => 'Doce de mamão', 
@@ -46,5 +46,5 @@
 			'ingrediente' => 'água, laranja e açucar',
 			'embalagem' => 'Pote de 400g',
 			'calorias' => '67 kcal',
-			'preco' => 'R$10,00'),
+			'preco' => 'R$27,00'),
 	);

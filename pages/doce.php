@@ -6,7 +6,7 @@
     <ul>
         <li>Ingredientes: <?=  $doces_descricao[$d]["ingrediente"]; ?> </li>
         <li>Embalagem: <?= $doces_descricao[$d]["embalagem"]; ?></li>
-        <li>Valor Nutriconal: <?= $doces_descricao[$d]["calorias"]; ?></li>
+        <li>Valor Nutriconal: <?= $doces_descricao[$d]["calorias"]; ?> a cada 20g</li>
         <li>Preço: <?= $doces_descricao[$d]["preco"]; ?> (frete não incluso)</li>
     </ul>
 
