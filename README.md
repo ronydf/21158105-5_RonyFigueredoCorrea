@@ -10,7 +10,6 @@ Trata-se de uma pagina web dinamica simples utilizando programação PHP.
 1.2 - Um menu horizontal com itens nossos produtos, quem somos, contato e localização.<br>
 1.3 – Local onde serão abertos as suas páginas.<br>
 1.4 – Um rodapé com seus dados acadêmicos.<br>
-
 2 – Uma página "Quem somos".<br>
 3 – Uma página "Nossos Prodtuos" (home) apresentando os produtos que estão à venda com um link direcionando aquele produto, com uma página específica que irá apresentar todas as informações do produto em questão. <br>
 4 – Uma página que apresente todas as informações de um produto específico. <br>
